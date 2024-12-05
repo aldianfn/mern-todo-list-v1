@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Category from "../models/Category";
+import Category from "../models/Category.js";
 
 export const getAllCategories = async (req, res) => {
     try {
